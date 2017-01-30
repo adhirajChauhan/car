@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+     <link href="https://fonts.googleapis.com/css?family=Corben:700" rel="stylesheet"
+     <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+  <style>
+  body {
+   font-family: helvetica, sans-serif;
+   margin: 0 auto;
+   max-width: 800px;
+   background: url("http://i.imgur.com/fiKKaWu.png");
+   background-size: cover;
+   background-position: center;
+ }
+  div {
+    height: 300px;
+    background: url("http://i.imgur.com/FQMkQLx.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 40px 0 0 0;
+    border-radius: 52px 52px 0 0;
+  }
+  p {
+  color: rgba(255,255,255,1);
+  background: rgba(0,0,0,1);
+  padding: 10px;
+  text-align:justify;
+  line-height: 28px;
+  position: absolute;
+  bottom: 0;
+  margin:0;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  height: 24px;
+  transition: height .5s;
+ -webkit-transition: height .5s;
+ -moz-transition: height .5s;
+}
+small {
+ opacity: 0;
+}
+h1 {
+  font-family: 'Corben', cursive;
+  text-align: center;
+  font-size: 64px;
+  margin: 60px 0 0 0;
+  color: rgba(26, 30, 35, .8);
+  background:rgba(0,0,0,0.3);
+  border-radius:52px 52px 0px 0px;
+}
+h2 {
+  text-align: center;
+  font-family: 'VT323', monospace;
+    color: rgba(26, 30, 35, .8);
+    background:rgba(0,0,0,0.3);
+    border-radius: 0 0 12px 12px;
+    position: relative;
+    top: -17px;
+}
+a {
+  color: white;
+}
+.show-description p {
+  height: 150px;
+  }
+  .show-description small {
+    opacity: 1;
+    }
+
+.price {
+  float: right;
+}
+  .dodge {
+    background: url("http://i.imgur.com/FQMkQLx.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .porsche {
+     background: url("http://i.imgur.com/uL0tZFE.jpg");
+     background-size: cover;
+     background-position: center;
+  }
+  .chevrolet {
+    background: url("http://i.imgur.com/yjT7ZTb.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .nissan {
+    background: url("http://i.imgur.com/Hs4o0sk.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .mazda {
+    background: url("http://i.imgur.com/oRW1W75.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  @media (max-width: 500px) {
+    h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+    }
+    h2 {
+     font-size: 20px;
+     margin: 20px 0 30px 0;
+    }
+    div {
+     margin: 30px 12px 0 12px;
+    }
+    p {
+     font-size: 20px;
+     line-height: 19px;
+    }
+    small {
+     font-size: 12px;
+    }
+  }
+</style>
+</head>
+  <body>
+    <h1>SpeedVille</h1>
+    <h2>THE BEST OR NOTHING</h2>
+<div class="dodge">
+<p>Dodge Viper <span class="price"> $15,000</span><br /><small> The standard features of the Dodge Viper SRT include 8.4L V-10 645hp engine, 6-speed manual transmission with overdrive, 4-wheel anti-lock brakes (ABS), integrated navigation system, side door mounted airbags, airbag occupancy sensor, automatic air conditioning, 18" forged aluminum wheels, cruise control, ABS and driveline traction control, electronic stability.<a href="http://www.dodge.com/viper.html">Click here for full description.</a></small></p></div>
+
+<div class="porsche">
+<p>Porsche Cayman<span class="price"> $54,000 </span><br /><small>The standard features of the Porsche Cayman S include 3.4L H-6 325hp engine, 6-speed manual transmission with overdrive, 4-wheel anti-lock brakes (ABS), side seat mounted airbags, curtain 1st row overhead airbag, airbag occupancy sensor, air conditioning, 19" aluminum wheels.<a href="http://www.porsche.com/international/models/">Click here for full description.</a></small></p></div>
+
+<div class="chevrolet">
+<p>Chevrolet Corvette<span class="price"> $47,300</span><br /><small> The standard features of the Chevrolet Corvette Stingray include 6.2L V-8 455hp engine, 7-speed manual transmission with overdrive, 4-wheel anti-lock brakes (ABS), side seat mounted airbags, airbag occupancy sensor, automatic air conditioning, 18" aluminum wheels, cruise control, ABS and driveline traction control, Active Handling electronic stability, 6 way power driver seat.<a href="http://www.chevrolet.com/corvette-sports-cars.html">Click here for full description.</a></small></p></div>
+
+<div class="nissan">
+<p>Nissan GT-R<span class="price"> $149,990</span><br /> <small>The standard features of the Nissan GT-R Premium include 3.8L V-6 565hp twin turbo engine, 6-speed auto-shift manual transmission with overdrive, 4-wheel anti-lock brakes (ABS), integrated navigation system, side seat mounted airbags, curtain 1st row overhead airbag, airbag occupancy sensor, automatic air conditioning, 20" forged aluminum wheels, cruise control, ABS and driveline traction control.<a href="https://www.nissan.in/GT-R.html">Click here for full description.</a></small></p></div>
+
+<div class="mazda">
+<p>Mazda MX-5 Miata<span class="price"> $29,435</span><br /><small> The standard features of the Mazda MX-5 Miata Sport include SKYACTIV-G 2.0L I-4 155hp engine, 6-speed manual transmission, 4-wheel anti-lock brakes (ABS), side seat mounted airbags, driver and passenger side airbag head extension, airbag occupancy sensor, air conditioning, 16" aluminum wheels, cruise control, ABS and driveline traction control, electronic stability.<a href="https://www.mazdausa.com/vehicles/mx-5-miata">Click here for full description.</a></small></p></div>
+<script>
+$('div').on('click', function() {
+ $(this).toggleClass('show-description');
+});
+</script>
+  </body>
+</html>
